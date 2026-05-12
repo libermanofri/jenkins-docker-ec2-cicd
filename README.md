@@ -1,4 +1,4 @@
-# Jenkins & Containers Project
+# Jenkins CI/CD Pipeline for Dockerized Applications on AWS EC2
 
 A DevOps project for containerizing a Python Flask application and a static website using Docker Compose, with a fully automated CI/CD pipeline using Jenkins.
 
@@ -31,7 +31,7 @@ pylint
 
 ## Project Structure
 ```bash
-JenkinsProject/
+jenkins-docker-ec2-cicd/
 │   README.md
 │   compose.yaml
 │   build.Jenkinsfile
@@ -59,8 +59,8 @@ JenkinsProject/
 ## Setup and Installation
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/Ofri3/JenkinsProject.git
-cd JenkinsProject
+git clone https://github.com/libermanofri/jenkins-docker-ec2-cicd.git
+cd jenkins-docker-ec2-cicd
 ```
 ### 2.Install Python dependencies:
 ```bash
